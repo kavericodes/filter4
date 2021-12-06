@@ -1,0 +1,31 @@
+body{
+    background:url("hat.jpg");
+    background-size:contain;
+}
+
+h1{
+    font-size: 50px !important;
+}
+
+.btn-success:hover{
+    background-color: rgb(86, 6, 161);
+}
+
+#snapshot{
+    font-size: 22px;
+}
+
+canvas{
+    animation-name: hat;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hat{
+    from{box-shadow: 1.5px 1.5px 38px rgb(117, 0, 163);}
+    to{box-shadow: 1.5px 1.5px 38px rgb(255, 138, 239);}
+}
+
+#snapshot{
+    margin-bottom: 50px;
+}
